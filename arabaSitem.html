@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="./assets/img/favicon.png" type="image/x-icon">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/css/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="./assets/css/styles.css">
+
+    <title>Voltrix Araba Sitesi</title>
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a class="nav__logo" href="#">
+                <i class="ri-steering-line"></i>
+                Voltrix
+            </a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item">
+                        <a class="nav__link" href="#home">AnaSayfa</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#about">Hakkında</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#popular">Popüler</a>
+                    </li>
+                    <li class="nav__item">
+                        <a class="nav__link" href="#featured">Öne Çıkanlar</a>
+                    </li>
+                </ul>
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+        <section class="home section" id="home">
+            <div class="shape shape__big"></div>
+            <div class="shape shape__small"></div>
+            <div class="home__container container grid">
+                <div class="home__data">
+                    <h1 class="home__title">
+                        En iyi Arabanızı Seçin
+                    </h1>
+                    <h2 class="home__subtitle">
+                        Porsche Mission E
+                    </h2>
+                    <h3 class="home__elec">
+                        <i class="ri-flashlight-fill"></i> Elektrikli araba
+                    </h3>
+                </div>
+                <img class="home__img" src="./assets/img/home.png" alt="Resim">
+                <div class="home__car">
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-temp-cold-line"></i>
+                        </div>
+                        <h2 class="home__car-number">24°</h2>
+                        <h3 class="home__car-name">SICAKLIK</h3>
+                    </div>
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-dashboard-3-line"></i>
+                        </div>
+                        <h2 class="home__car-number">873</h2>
+                        <h3 class="home__car-name">KİLOMETRE</h3>
+                    </div>
+                    <div class="home__car-data">
+                        <div class="home__car-icon">
+                            <i class="ri-flashlight-fill"></i>
+                        </div>
+                        <h2 class="home__car-number">94%</h2>
+                        <h3 class="home__car-name">AKÜ</h3>
+                    </div>
+                </div>
+                <a class="home__button" href="#">BAŞLA</a>
+            </div>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="about__container container grid">
+                <div class="about__group">
+                    <img class="about__img" src="./assets/img/about.png" alt="Hakkında Görseli">
+                    <div class="about__card">
+                        <h3 class="about__card-title">2.500+</h3>
+                        <p class="about__card-description">
+                            Popüler güzergahlar boyunca yerleştirilen süperşarjlar
+                        </p>
+                    </div>
+                </div>
+                <div class="about__data">
+                    <h2 class="about__title section__title">
+                        Gelecek Teknolojisine Sahip <br> Makineler
+                    </h2>
+                    <p class="about__description">
+                        Geleceğin kapılarını, çığır açan teknolojilere ve modern tasarımlara sahip,
+                        lider markaların ürettiği dayanıklı ve yüksek performanslı elektrikli araçlarla aralayın.
+                    </p>
+                    <a class="button" href="#">Daha Fazla Bilgi</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="popular section" id="popular">
+            <h2 class="section__title">
+                Elektrikli Aracınızı Seçin <br> Porsche Markasından
+            </h2>
+            <div class="popular__container container swiper">
+                <div class="swiper-wrapper">
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="popular__title">Porsche</h2>
+                        <h3 class="popular__subtitle">Turbo S</h3>
+                        <img class="popular__img" src="./assets/img/popular1.png" alt="Resim">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 sn
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 365 km/s
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i>  Elektrik
+                            </div>
+                        </div>
+                        <h3 class="popular__price">6.700,000</h3>
+                        <button class="popular__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="popular__title">Porsche</h2>
+                        <h3 class="popular__subtitle">Taycan</h3>
+                        <img class="popular__img" src="./assets/img/popular2.png" alt="Resim">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 sn
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 365 km/s
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i>  Elektrik
+                            </div>
+                        </div>
+                        <h3 class="popular__price">4.380,000</h3>
+                        <button class="popular__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="popular__title">Porsche</h2>
+                        <h3 class="popular__subtitle">Turbo S Cross</h3>
+                        <img class="popular__img" src="./assets/img/popular3.png" alt="Resim">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 sn
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 365 km/s
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Elektrik
+                            </div>
+                        </div>
+                        <h3 class="popular__price">5.753.000 TL</h3>
+                        <button class="popular__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="popular__title">Porsche</h2>
+                        <h3 class="popular__subtitle">Boxster 718</h3>
+                        <img class="popular__img" src="./assets/img/popular4.png" alt="Resim">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 sn
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 365 km/s
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Elektrik
+                            </div>
+                        </div>
+                        <h3 class="popular__price">4.800.000 TL</h3>
+                        <button class="popular__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="popular__card swiper-slide">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="popular__title">Porsche</h2>
+                        <h3 class="popular__subtitle">Cayman</h3>
+                        <img class="popular__img" src="./assets/img/popular5.png" alt="Resim">
+                        <div class="popular__data">
+                            <div class="popular__data-group">
+                                <i class="ri-dashboard-3-line"></i> 3.7 sn
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-funds-box-line"></i> 365 km/s
+                            </div>
+                            <div class="popular__data-group">
+                                <i class="ri-charging-pile-2-line"></i> Elektrik
+                            </div>
+                        </div>
+                        <h3 class="popular__price">4.915.000 TL</h3>
+                        <button class="popular__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                </div>
+                <div class="swiper-pagination"></div>
+            </div>
+        </section>
+
+        <section class="features section">
+            <h2 class="features__title section__title">
+                Daha Fazla Özellik
+            </h2>
+            <div class="features__container container grid">
+                <div class="features__group">
+                    <img class="features__img" src="./assets/img/features.png" alt="Resim">
+                    <div class="features__card features__card-1">
+                        <h3 class="features__card-title">800v</h3>
+                        <p class="features__card-description">Turbo <br> Şarj</p></p>
+                    </div>
+                    <div class="features__card features__card-2">
+                        <h3 class="features__card-title">350</h3>
+                        <p class="features__card-description">Km <br> Menzil</p>
+                    </div>
+                    <div class="features__card features__card-3">
+                        <h3 class="features__card-title">480</h3>
+                        <p class="features__card-description">Km <br> Seyahat</p>
+                    </div>
+                </div>
+                <div class="features__map">
+                    <img class="features__map-img" src="./assets/img/map.svg" alt="Harita">
+                </div>
+            </div>
+        </section>
+
+        <section class="featured section" id="featured">
+            <h2 class="section__title">
+                Öne Çıkan Lüks Arabalar
+            </h2>
+            <div class="featured__container container">
+                <ul class="featured__filters">
+                    <li>
+                        <button class="featured__item active-featured" data-filter="all">
+                            <span>Tümü</span>
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".tesla">
+                            <img src="./assets/img/logo3.png" alt="Filtre İkonu">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".audi">
+                            <img src="./assets/img/logo2.png" alt="Filtre İkonu">
+                        </button>
+                    </li>
+                    <li>
+                        <button class="featured__item" data-filter=".porshe">
+                            <img src="./assets/img/logo1.png" alt="Filtre İkonu">
+                        </button>
+                    </li>
+                </ul>
+                <div class="featured__content grid">
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="featured__title">Tesla</h2>
+                        <h3 class="featured__subtitle">Model X</h3>
+                        <img class="featured__img" src="./assets/img/featured1.png" alt="Öne Çıkan Görsel">
+                        <h3 class="featured__price">3.770,000</h3>
+                        <button class="featured__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="featured__card mix tesla">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="featured__title">Tesla</h2>
+                        <h3 class="featured__subtitle">Model 3</h3>
+                        <img class="featured__img" src="./assets/img/featured2.png" alt="Öne Çıkan Görsel">
+                        <h3 class="featured__price">1.750,000</h3>
+                        <button class="featured__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="featured__card mix audi">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="featured__title">Audi</h2>
+                        <h3 class="featured__subtitle">E-tron</h3>
+                        <img class="featured__img" src="./assets/img/featured3.png" alt="Öne Çıkan Görsel">
+                        <h3 class="featured__price">6.700,000</h3>
+                        <button class="featured__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="featured__card mix porshe">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="featured__title">Porsche</h2>
+                        <h3 class="featured__subtitle">Boxster 987</h3>
+                        <img class="featured__img" src="./assets/img/featured4.png" alt="Öne Çıkan Görsel">
+                        <h3 class="featured__price">4.840,000</h3>
+                        <button class="featured__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                    <article class="featured__card mix porshe">
+                        <div class="shape shape__smaller"></div>
+                        <h2 class="featured__title">Porsche</h2>
+                        <h3 class="featured__subtitle">Panamera</h3>
+                        <img class="featured__img" src="./assets/img/featured5.png" alt="Öne Çıkan Görsel">
+                        <h3 class="featured__price">4.840,000</h3>
+                        <button class="featured__button button">
+                            <i class="ri-shopping-bag-2-line"></i>
+                        </button>
+                    </article>
+                </div>
+            </div>
+        </section>
+        <!--==================== OFFER ====================-->
+        <section class="offer section">
+            <div class="offer__container container grid">
+                <img class="offer__bg" src="./assets/img/offer-bg.png" alt="Teklif Arka Planı">
+                <div class="offer__data">
+                    <h2 class="offer__title section__title">
+                        Özel Teklifler Almak <br> İster Misiniz?
+                    </h2>
+                    <p class="offer__description">
+                        Ürünlerimiz ve yeni arabalarımız hakkındaki tüm bilgileri, posta listemize kaydolarak e-posta yoluyla ilk alan siz olun.
+                    </p>
+                    <a class="button" href="#">Şimdi Abone Olun</a>
+                </div>
+                <img class="offer__img" src="./assets/img/offer.png" alt="Teklif Görseli">
+            </div>
+        </section>
+        <!--==================== LOGOS ====================-->
+        <section class="logos section">
+            <div class="logos__container container grid">
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo1.png" alt="Logo Görseli">
+                </div>
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo2.png" alt="Logo Görseli">
+                </div>
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo3.png" alt="Logo Görseli">
+                </div>
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo4.png" alt="Logo Görseli">
+                </div>
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo5.png" alt="Logo Görseli">
+                </div>
+                <div class="logos__content">
+                    <img class="logos__img" src="./assets/img/logo6.png" alt="Logo Görseli">
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--==================== FOOTER ====================-->
+    <footer class="footer section">
+        <div class="shape shape__big"></div>
+        <div class="shape shape__small"></div>
+        <div class="footer__container container grid">
+            <div class="footer__content">
+                <a class="footer__logo" href="#">
+                    <i class="ri-steering-line"></i> Voltrix
+                </a>
+                <p class="footer__description">
+                    Dünyanın en tanınmış markalarının <br>
+                    en iyi elektrikli arabalarını <br>
+                    sunuyoruz.
+                </p>
+            </div>
+            <!-- Footer Content - 2 -->
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Şirket
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a class="footer__link" href="#">About</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Cars</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">History</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Shop</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Footer Content - 3 -->
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Bilgi
+                </h3>
+                <ul class="footer__links">
+                    <li>
+                        <a class="footer__link" href="#">Teklif İste</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Bayi Bul</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Bize Ulaşın</a>
+                    </li>
+                    <li>
+                        <a class="footer__link" href="#">Hizmetler</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Footer Content - 4 -->
+            <div class="footer__content">
+                <h3 class="footer__title">
+                    Bizi Takip Edin
+                </h3>
+                <ul class="footer__social">
+                    <a class="footer__social-link" href="https://www.facebook.com" target="_blank">
+                        <i class="ri-facebook-fill"></i>
+                    </a>
+                    <a class="footer__social-link" href="https://www.instagram.com" target="_blank">
+                        <i class="ri-instagram-fill"></i>
+                    </a>
+                    <a class="footer__social-link" href="https://www.twitter.com" target="_blank">
+                        <i class="ri-twitter-fill"></i>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        <span class="footer__copy">
+            &#169; Tüm hakları saklıdır
+        </span>
+    </footer>
+
+
+    <!--========== SCROLL UP ==========-->
+    <a class="scroll__up" href="#" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!--=============== SCROLL REVEAL ===============-->
+    <script src="./assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="./assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP JS ===============-->
+    <script src="./assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
+
+
